@@ -1,0 +1,19 @@
+.radio__ circle{
+    fill: none;
+    color:var(--radio);
+
+}
+
+.radio__ , .radio__checked{
+    height: 18px;
+    width: 18px;
+    color:var(--radio);
+}
+
+
+.radio__checked circle:nth-child(2){
+    fill:rgb(176, 109, 238);
+    cx:12px;
+    cy:12px;
+    r:5;
+}

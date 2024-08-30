@@ -1,0 +1,29 @@
+.label{
+    justify-content: left;
+    align-items: center; 
+    text-align: left;
+    position: relative;
+    color: var(--text-primary);
+    font-family: 'josefin sans', sans-serif ;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+
+.label__completed{
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: var(--text-primary); 
+    opacity: 0.5;
+}
+
+
+.label__info{
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+
+
+

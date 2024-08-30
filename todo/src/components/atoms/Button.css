@@ -1,0 +1,22 @@
+.button__{ 
+    color: var(--text-primary) !important; 
+    background-color: transparent;
+    border: none;
+    font-family: 'josefin sans', sans-serif ;
+}
+
+.button__light{
+    background-color: var(--card-color);
+    border: none;
+    font-family: 'josefin sans', sans-serif ;
+}
+
+.button .button__icon{
+    font-size: 1rem;
+}
+
+.button__active{
+    border: none;
+   background-color: var(--card-color);
+    color: rgb(176, 109, 238);
+}

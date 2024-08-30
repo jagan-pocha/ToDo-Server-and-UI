@@ -1,0 +1,22 @@
+
+
+.todo__template{
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom:0;
+    overflow: hidden;
+}
+
+.todo__template .drag__info{
+    margin-top: 3vh;
+}
+
+
+
+
+
+

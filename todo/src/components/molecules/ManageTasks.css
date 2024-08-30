@@ -1,0 +1,43 @@
+.manage__tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.6rem;
+    margin-top: 0.1rem;
+    border-radius: 0.2rem;
+    flex-wrap: wrap;
+    
+}
+.manage__tasks .item__count, .clear__completed{
+        order:1;  
+        flex: 1 1 1%;
+        padding:0.6rem 0rem;
+       background-color: var(--card-color);
+}
+
+.manage__tasks .task__categories{
+        order:2;
+        flex: 1 1 100%;  
+        padding: 0.6rem; 
+        margin-top: 1rem; 
+        background-color: var(--card-color)
+}
+
+@media only screen and (min-width: 1440px){
+    .manage__tasks{
+        flex-wrap: nowrap;
+        padding: 0 0.6rem;
+        background-color:  var(--card-color);
+    }
+    .manage__tasks .item__count, .clear__completed, .task__categories{
+        order: 1 !important;
+        flex: none;
+        margin-top: 0 !important;
+        
+    }
+}
+
+
+
+
+

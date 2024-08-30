@@ -1,0 +1,16 @@
+.add__task{
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    background-color:  var(--card-color);
+}
+
+.add__task input{
+    padding: 0 0.5rem;
+}
+
+

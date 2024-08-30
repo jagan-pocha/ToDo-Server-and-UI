@@ -1,0 +1,13 @@
+.todo__form{
+    height: auto;
+    width: 70vw;
+    max-width: 420px;
+    position: relative;
+}
+
+@media only screen and (min-width: 1440px){
+    .todo__form{
+        height: auto;
+        width: 30vw;
+    }
+}

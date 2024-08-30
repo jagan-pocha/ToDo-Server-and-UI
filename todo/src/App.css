@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.rest{
+  height: 65vh;
+  background-color: var(--background);
+}
+
+
+.todo__wrapper{
+  height: 35vh;
+  background-image: var(--background-image);
+  background-size: cover;
+ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1440px){
+ .todo__wrapper{
+  background-image: var(--background-mobile);
+ }
+}
+
+
+
+
+
+
+

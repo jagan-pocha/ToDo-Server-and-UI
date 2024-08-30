@@ -1,0 +1,38 @@
+.task__item{
+    border-radius: 0.2rem;
+    margin: 1px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.6rem;
+    background-color: var(--card-color);
+    overflow: hidden;
+}
+
+.radio__task{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 30px);
+
+}
+
+.radio__task label{
+    padding: 0 0.5rem;
+   
+}
+
+.tasks__wrapper{
+    width: 100%;
+    overflow-y: auto;
+    min-height: 25vh;
+    max-height: 45vh;
+    scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+
+
+
+
+

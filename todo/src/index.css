@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'josefin sans', sans-serif ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+
+
+:root {
+  --background: hsl(236, 33%, 92%);
+  --background-image:url('./icons/bg-desktop-light.jpg');
+  --text-primary: black;
+  --card-color:hsl(0, 0%, 98%);
+  --radio:black;
+  --background-mobile:url('./icons/bg-mobile-light.jpg');
+}
+[data-theme='dark'] {
+  --background: hsl(235, 21%, 11%);
+   --background-image:url('./icons/bg-desktop-dark.jpg');
+  --text-primary: hsl(234, 39%, 85%);
+  --card-color:hsl(235, 24%, 19%);
+  --radio:white;
+  --background-mobile:url('./icons/bg-mobile-dark.jpg');
+}
+
